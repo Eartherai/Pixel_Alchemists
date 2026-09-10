@@ -1,0 +1,32 @@
+[
+  {
+    "config": "bilinear baseline",
+    "ms_per_img": 1.181665015622002,
+    "img_per_s": 846.2635237395281
+  },
+  {
+    "config": "ours, batch=1,  SE=1",
+    "ms_per_img": 17.18423687498216,
+    "img_per_s": 58.19286636207045
+  },
+  {
+    "config": "ours, batch=8,  SE=1",
+    "ms_per_img": 17.278945609348284,
+    "img_per_s": 57.873901718805016
+  },
+  {
+    "config": "ours, batch=16, SE=1",
+    "ms_per_img": 17.555888968729505,
+    "img_per_s": 56.960943520501694
+  },
+  {
+    "config": "ours, batch=16, SE=1, +png out",
+    "ms_per_img": 30.430078781250813,
+    "img_per_s": 32.86222185583495
+  },
+  {
+    "config": "ours, batch=8,  SE=4",
+    "ms_per_img": 70.27218979686722,
+    "img_per_s": 14.230380508856443
+  }
+]

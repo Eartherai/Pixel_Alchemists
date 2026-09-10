@@ -1,0 +1,6 @@
+# core (versions used for the submitted checkpoint)
+torch==2.10.0
+numpy==2.0.2
+pillow
+lpips
+matplotlib
